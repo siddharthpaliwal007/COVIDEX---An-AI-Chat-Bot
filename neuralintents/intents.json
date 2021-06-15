@@ -1,0 +1,49 @@
+{"intents": [
+
+  {"tag": "greetings",
+    "patterns": ["Hi", "Need assistance", "Emergency", "Hello",  "Whats up", "Hey"],
+    "responses": ["Hello! I am Covidex! How may I help you? ", "Hi I am Covidex , need help?"],
+    "context_set": ""
+  },
+  {"tag": "goodbye",
+    "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+    "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+    "context_set": ""
+  },
+  {"tag": "Covid",
+    "patterns": ["Covid"],
+    "responses": ["Yes we have Covid-related services available. What type of service do you want? "],
+    "context_set": ""
+  },
+  {"tag": "Covid-test",
+    "patterns": [ "Covid Test"],
+    "responses": ["Yes! We conduct RT-PCR testing at the Laboratory complex. Open all 24 hours"],
+    "context_set": ""
+  },
+   {"tag": "Covid-bed",
+    "patterns": [ "Need bed", "Covid patient bed", "Rooms", "Room for Covid patient"],
+    "responses": ["Yes! Beds are available. Please, contact reception!"],
+    "context_set": ""
+  },
+  {"tag": "Medical Emergency Equipment",
+    "patterns": ["Need cylinder", "Cylinder", "Patient Cylinder", "Emergency Ventilator", "Oxygen Cylinder", "Emergency Room"],
+    "responses": ["We have the requested equipment"],
+    "context_set": ""
+  },
+  {"tag": "Accessories",
+    "patterns": ["Covid Masks", "Covid Medicines","Remedesevir Injections"],
+    "responses": ["Hi we have all Covid-related accessories including medicines,injections as well as masks"],
+    "context_set": ""
+  },
+  {"tag": "Vaccinations",
+    "patterns": ["Vaccine", "Pfizer","Moderna","Astrazenica"],
+    "responses": ["Thank you for asking. Yes, we conduct vaccination from 10:00 am to 3:00 pm at Community complex."],
+    "context_set": ""
+  },
+  {"tag": "Non-Covid",
+    "patterns": ["Non-Covid", "Non-Covid Inquiry"],
+    "responses": ["Hello I am Covidex, I provide only Covid related information. Please visit reception for non-covid inquires"],
+    "context_set": ""
+  }
+]
+}
